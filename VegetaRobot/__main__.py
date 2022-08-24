@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-Siva =Clien()
+Siva =Client()
 
 
 @Client.on_message(filters.command("guyyy"))
