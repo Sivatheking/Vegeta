@@ -6,7 +6,7 @@ import re
 
 from sys import argv
 from typing import Optional
-from pyrogram import filters
+from pyrogram import filters, Client
 
 from VegetaRobot import (
     ALLOW_EXCL,
@@ -78,6 +78,13 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
 
     return ping_time
+
+Siva =Clien()
+
+
+@Client.on_message(filters.command("guyyy"))
+async def guyyy_cmd(client, msg):
+    await msg.reply_text(text="hi")
 
 
 PM_START_TEXT = """ ┗►  *What's Up Yoo! * ◄┛
