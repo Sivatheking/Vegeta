@@ -28,7 +28,7 @@ class Config(object):
     REM_BG_API_KEY = "dxsh728mZMDmj4ijSZCNPZig"
     EVENT_LOGS = -1001543354286  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     LOAD = []
-    NO_LOAD = ['rss', 'cleaner', 'connection', 'math']
+    NO_LOAD = []
     WEBHOOK = None
     INFOPIC = True
     URL = None
